@@ -1,12 +1,100 @@
-# React + Vite
+# Cocktails Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### A visually stunning, interactive landing page for cocktails, built with React, Vite, GSAP, and TailwindCSS. This project demonstrates modern web animation, responsive design, and clean component architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features:
 
-## Expanding the ESLint configuration
+* ⚡️ Lightning-fast development with Vite
+* 🎨 Beautiful, responsive UI with TailwindCSS
+* ✨ Smooth, performant animations using GSAP
+* 🧩 Modular React component structure
+* 📱 Mobile-friendly and fully responsive
+* 🧑‍💻 Easy to extend and customize
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 📂 Folder Structure
+
+```bash
+.
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Art.jsx
+│   │   ├── Cocktails.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Menu.jsx
+│   │   └── Navbar.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── constants/
+├── index.html
+├── package.json
+├── vite.config.js
+└── ...
+```
+
+---
+
+## 🛠️ Technologies Used
+
+* [React](https://react.dev/)
+* [Vite](https://vitejs.dev/)
+* [GSAP](https://greensock.com/gsap/)
+* [TailwindCSS](https://tailwindcss.com/)
+* [ESLint](https://eslint.org/) (with recommended rules)
+* [React Responsive](https://github.com/contra/react-responsive)
+
+## 🏁 Getting Started
+
+### Prerequisites
+
+* Node.js (v18+ recommended)
+* npm
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/gsap-landing-page.git
+```
+
+```bash
+cd gsap-landing-page
+```
+
+```bash
+npm install
+```
+
+### Running Locally
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+### Linting
+
+```bash
+npm run lint
+```
+
+---
+
+## 👤 Author
+
+**Pratham-Prog**  
+
+[GitHub](https://github.com/Pratham-Prog861)
